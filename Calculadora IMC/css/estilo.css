@@ -1,0 +1,66 @@
+body {
+	background-color: #000;
+}
+
+.jumbotron {
+	background-color: #000000;
+	color: #F8F8FF;
+	text-align: center;
+	margin-bottom: 0;
+	border-radius: 0!important;
+	padding-top: 1%;
+	padding-bottom: 1%; 
+}
+
+@media (max-width: 990px) {
+	.jumbotron h1 {
+		font-size: 2.5em!important;
+	}
+	.jumbotron h2 {
+		font-size: 1em!important;
+
+	}
+}
+
+.container{
+	width: 100%!important;
+	padding: 0;
+}
+
+.jumbotron h1 {
+	margin-bottom: 1%!important;
+	font-size: 3em;
+	font-family: 'Castellar';
+	margin: 0;
+	letter-spacing: .12em;
+}
+
+.jumbotron h2{
+	margin:0;
+	font-size: 1.5em;
+	font-family: 'Miriam Fixed';
+	letter-spacing: .4em;
+	word-spacing: .1em;
+}
+
+.content-section {
+	background-image: url("https://cdn.pixabay.com/photo/2018/04/05/17/21/kettlebell-3293475_960_720.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 100%;
+}
+
+.content-block{
+	width: 80%;
+	max-width: 1024px;
+	margin: auto;
+}
+
+/*imagen de fondo se muestra completa*/
+.block {
+	height: 115vh;
+}
+#calcular{ 
+	width: 150PX;
+}
+

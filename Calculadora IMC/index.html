@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>IMC</title>
+	<meta name="descripcion" content="indice de masa corporal">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<script src="js/index.js"></script>
+</head>
+
+<body>
+	<div class="container">
+		<div class="jumbotron">
+			<h1>IMC</h1>
+			<h2>CÁLCULO DEL ÍNDICE DE MASA CORPORAL</h2>
+		</div>
+	</div>
+	<div class="content-section block">
+		<div class="content-block">
+            <fieldset class="form-block">
+                 <div class="col-xs-10 col-md-10">
+                    <label><b>Sexo:</b></label><br >
+                    <input id="sexo" name="sexo" type="text" placeholder="cm" class="form-control">
+                 </div>
+                 <br>
+                    <div class="col-xs-10 col-md-10">
+                        <label><b>Edad:</b></label><br >
+                        <input id="edad" name="edad" type="text" placeholder="cm" class="form-control">
+                    </div>
+                    <br>
+                    <div class="col-xs-10 col-md-10">
+                    	<label><b>Peso:</b></label><br >
+                        <input id="peso" name="peso" type="text" placeholder="kg" class="form-control">
+                    </div>
+                    <br >
+                    <div class="col-xs-10 col-md-10">
+                        <label><b>Altura:</b></label><br >
+                        <input id="estatura" name="estatura" type="text" placeholder="cm" class="form-control">
+                    </div>
+                    <div class="col-xs-10 col-md-10">
+                        <label><b>Resultado:</b></label><br >
+                        <label id="imc" name="imc" class="form-control"></label>
+                    </div>
+                    <br >
+                    <div class="col-xs-10 col-md-10">
+                        <button id="calcular" type="" class="btn btn-primary btn-lg" onclick="calcularIMC()">CALULAR IMC</button>
+                    
+                    </div>
+                    <br >
+                    <div id="divNotas"></div>
+                    <table>
+                        <tr>
+                            <th>CATEGORIA</th>
+                        </tr>
+                        <tr class="paciente">
+                            <td class="info-nome">18.5  <span>a</span> 24.9 <span>saludable</span></td>    
+                        </tr>
+                        <tr class="paciente">
+                            <td class="info-nome">25.0 <span>a</span> 29.9 <span>Con sobrepeso</span></td>
+                        </tr>
+                        <tr class="paciente">
+                            <td class="info-nome">30.0<span>a</span> 39.9 <span>Obeso</span></td>
+                        </tr>
+                        <tr class="paciente">
+                            <td class="info-nome">Mas <span>de</span> 40 <span>Obesidad extrema o de alto riesgo</span></td>
+                        </tr>
+                        
+                    </table>
+                    <label id="comentario" name="comentario"></label>
+            </fieldset>
+		</div>
+	</div>
+</body>
+</html> 

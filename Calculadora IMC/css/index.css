@@ -1,0 +1,49 @@
+.content-block {
+	width: 50%!important;
+	background-color: #fff;
+	background-clip: border-box;
+    border-style: outset;
+    border-color: #fff;
+    border-width: 1pt;
+    box-shadow: 10px 10px 5px #000;
+    color: #000000;
+}
+
+@media (max-width: 992px) {
+	.content-block {
+		width: 50%!important;
+	}
+}
+
+.btn-primary {
+	background-color: #000000 !important;
+	color: #FFFFFF !important;
+	width: 20%;
+	border-color: #000000 !important;
+	font-size: 1em;
+}
+
+.form-block{
+	margin: auto;
+	padding: 7%;
+	background-color: #fff;
+}
+
+.form-control {
+	width: 20%;
+	margin-left: 0!important;
+}
+
+input, textarea, button {
+	font-family: 'Cambria';
+}
+
+#comentario {
+	float: right;
+}
+table {
+	background: aqua;
+	
+	margin-left: 50%;
+	margin-top: -30%;
+}
